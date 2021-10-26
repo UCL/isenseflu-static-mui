@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- load MUI -->
-  <link href="https://cdn.muicss.com/mui-0.9.41/css/mui.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
+  <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
 </head>
 <body>
   <!-- example content -->
@@ -15,14 +15,16 @@
       <article>
         <section>
           <p>
-            i-Sense flu (also known as Flu Detector) uses Google search data to estimate influenza-like illness (flu) rates in England. 
+            i-Sense flu (also known as Flu Detector) uses Google search data to estimate influenza-like illness (flu) rates in England.
             Daily flu rate estimates reflect on data from the past 7 days. Models are trained using GP consultation data (aggregate,
-            anonymised) obtained from the <a href="https://www.rcgp.org.uk/" target="_parent">Royal College of General Practitioners (RCGP)</a>. This 
-            website is supported by the EPSRC IRC project <a href="https://www.i-sense.org.uk/" target="_parent">i-sense</a> (Early-Warning Sensing 
-            Systems for Infectious Diseases) and a Google Research Sponsorship.
+            anonymised) obtained from the <a href="https://www.rcgp.org.uk/" target="_parent">Royal College of General Practitioners (RCGP)</a>. This
+            website is supported by the EPSRC IRC project <a href="https://www.i-sense.org.uk/" target="_parent">i-sense</a> (Early-Warning Sensing
+            Systems for Infectious Diseases) and a Google Research Sponsorship. Our estimates are included in the
+            <a href="https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2021-to-2022-season">
+              weekly syndromic surveillance reports published by UK Health Security Agency (UKHSA)</a>.
           </p>
           <p>
-            <!--Note that regional scores (i.e., everything but the scores for "England") are still under development.--> 
+            <!--Note that regional scores (i.e., everything but the scores for "England") are still under development.-->
             <strong>Note:</strong> All estimates on this website should be considered as experimental (see the website's disclaimer below).
           </p>
           <p>
@@ -32,21 +34,23 @@
         <section>
           <h3>Research team</h3>
           <p>
-            The research team behind i-Sense Flu is based at the <a href="http://www.cs.ucl.ac.uk/" target="_parent">Computer Science Department</a> 
+            The research team behind i-Sense Flu is based at the <a href="http://www.cs.ucl.ac.uk/" target="_parent">Computer Science Department</a>
             of <a href="http://www.ucl.ac.uk/" target="_parent">University College London</a>.
           </p>
           <dl>
             <dt><a href="https://www.lampos.net" target="_parent">Vasileios Lampos</a></dt>
-            <dd>Principal Research Fellow</dd>
-            <dt>Simon Moura</dt>
+            <dd>Associate Professor</dd>
+            <dt>Aarzoo Dhiman</dt>
             <dd>Research Fellow</dd>
             <dt><a href="http://www.cs.ucl.ac.uk/people/D.Guzman.html" target="_parent">David Guzman</a></dt>
             <dd>Lead Software Engineer</dd>
             <dt><a href="http://mediafutures.cs.ucl.ac.uk/people/IngemarCox/" target="_parent">Ingemar J. Cox</a></dt>
             <dd>Professor in Information Retrieval</dd>
+            <dt>Michael Morris</dt>
           </dl>
           <dl>
             <dt><strong>Past Members:</strong></dt>
+            <dd>Simon Moura</dd>
             <dd><a href="http://www.jkg.dk" target="_parent">Jens K. Geyti</a></dd>
             <dd>Bin Zou</dd>
           </dl>
@@ -54,57 +58,62 @@
         <section>
           <h3>Relevant publications</h3>
           <p>
-            Vasileios Lampos, Andrew Miller, Steve Crossan and Christian Stefansen. 
-            <a href="http://www.nature.com/articles/srep12760" target="_parent">Advances in nowcasting influenza-like illness rates using search 
+            Vasileios Lampos, Andrew Miller, Steve Crossan and Christian Stefansen.
+            <a href="http://www.nature.com/articles/srep12760" target="_parent">Advances in nowcasting influenza-like illness rates using search
             query logs</a>. <strong>Scientific Reports</strong>, vol. 5 (12760), 2015. doi:10.1038/srep12760.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Vasileios Lampos, Bin Zou and Ingemar J. Cox. 
-            <a href="http://dl.acm.org/citation.cfm?doid=3038912.3052622" target="_parent">Enhancing feature selection using word embeddings: 
+            Vasileios Lampos, Bin Zou and Ingemar J. Cox.
+            <a href="http://dl.acm.org/citation.cfm?doid=3038912.3052622" target="_parent">Enhancing feature selection using word embeddings:
             The case of flu surveillance</a>. <strong>Proc. of the 2017 World Wide Web Conference</strong>, pp. 695-704, 2017.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Vasileios Lampos. <a href="https://arxiv.org/abs/1612.03494" target="_parent">Flu Detector: Estimating influenza-like illness rates 
+            Vasileios Lampos. <a href="https://arxiv.org/abs/1612.03494" target="_parent">Flu Detector: Estimating influenza-like illness rates
             from online user-generated content</a>. Technical Report, <strong>Computing Research Repository</strong>, 2016. arXiv:1612.03494.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Moritz Wagner, Vasileios Lampos, Ingemar J. Cox and Richard Pebody. 
-            <a href="https://www.nature.com/articles/s41598-018-32029-6" target="_parent">The added value of online user-generated content 
+            Moritz Wagner, Vasileios Lampos, Ingemar J. Cox and Richard Pebody.
+            <a href="https://www.nature.com/articles/s41598-018-32029-6" target="_parent">The added value of online user-generated content
             in traditional methods for influenza surveillance</a>. <strong>Scientific Reports</strong>, vol. 8 (13963), 2018. doi:10.1038/s41598-018-32029-6.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Vasileios Lampos, Elad Yom-Tov, Richard Pebody and Ingemar J. Cox. 
-            <a href="http://link.springer.com/article/10.1007/s10618-015-0427-9" target="_parent">Assessing the impact of a health intervention 
+            Vasileios Lampos, Elad Yom-Tov, Richard Pebody and Ingemar J. Cox.
+            <a href="http://link.springer.com/article/10.1007/s10618-015-0427-9" target="_parent">Assessing the impact of a health intervention
             via user-generated Internet content</a>. <strong>Data Mining and Knowledge Discovery</strong>, vol. 29 (5), pp. 1434-1457, 2015. doi:10.1007/s10618-015-0427-9.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Moritz Wagner, Vasileios Lampos, Elad Yom-Tov, Richard Pebody, Ingemar J. Cox. 
-            <a href="https://www.jmir.org/2017/12/e416" target="_parent">Estimating the Population Impact of a New Pediatric Influenza 
-            Vaccination Program in England Using Social Media Content</a>. 
+            Moritz Wagner, Vasileios Lampos, Elad Yom-Tov, Richard Pebody, Ingemar J. Cox.
+            <a href="https://www.jmir.org/2017/12/e416" target="_parent">Estimating the Population Impact of a New Pediatric Influenza
+            Vaccination Program in England Using Social Media Content</a>.
             <strong>Journal of Medical Internet Research</strong>, vol. 19 (12), 2017. doi:10.2196/jmir.8184.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Bin Zou, Vasileios Lampos and Ingemar J. Cox. 
-            <a href="https://dl.acm.org/citation.cfm?id=3186050" target="_parent">Multi-Task Learning Improves Disease Models from Web Search</a>. 
+            Bin Zou, Vasileios Lampos and Ingemar J. Cox.
+            <a href="https://dl.acm.org/citation.cfm?id=3186050" target="_parent">Multi-Task Learning Improves Disease Models from Web Search</a>.
             <strong>Proc. of the 2018 World Wide Web Conference</strong>, pp. 87-96, 2018.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Bin Zou, Vasileios Lampos and Ingemar J. Cox. <a href="https://dl.acm.org/citation.cfm?doid=3308558.3313477" target="_parent">Transfer Learning for 
-            Unsupervised Influenza-like Illness Models from Online Search Data</a>. <strong>Proc. of the 2019 World Wide Web 
+            Bin Zou, Vasileios Lampos and Ingemar J. Cox. <a href="https://dl.acm.org/citation.cfm?doid=3308558.3313477" target="_parent">Transfer Learning for
+            Unsupervised Influenza-like Illness Models from Online Search Data</a>. <strong>Proc. of the 2019 World Wide Web
             Conference</strong>, pp. 2505-2516, 2019.
           </p>
           <div class="mui-divider"></div>
           <p>
-            Vincent Primault, Vasileios Lampos, Ingemar J. Cox and Emiliano De Cristofaro. 
-            <a href="https://dl.acm.org/citation.cfm?doid=3308558.3313474" target="_parent">Privacy-Preserving Crowd-Sourcing of Web Searches with 
+            Vincent Primault, Vasileios Lampos, Ingemar J. Cox and Emiliano De Cristofaro.
+            <a href="https://dl.acm.org/citation.cfm?doid=3308558.3313474" target="_parent">Privacy-Preserving Crowd-Sourcing of Web Searches with
               Private Data Donor</a>. <strong>Proc. of the 2019 World Wide Web Conference</strong>, pp. 1487-1497, 2019.
+          </p>
+          <div class="mui-divider"></div>
+          <p>
+            Michael Morris, Peter Hayes, Ingemar J. Cox, Vasileios Lampos.
+            <a href="https://arxiv.org/abs/2105.12433" target="_parent">Estimating the Uncertainty of Neural Network Forecasts for Influenza Prevalence Using Web Search Activity</a>. <strong>arXiv</strong>, 2105.12433, 2021.
           </p>
         </section>
         <section>
